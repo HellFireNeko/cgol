@@ -1,0 +1,13 @@
+(
+    axes: {
+        "vertical": Emulated(pos: Key(W), neg: Key(S)),
+        "horizontal": Emulated(pos: Key(D), neg: Key(A)),
+        "scale": Emulated(pos: Key(PageDown), neg: Key(PageUp)),
+    },
+    actions: {
+        "pause": [[Key(Space)]],
+        "exit": [[Key(Escape)]],
+        "initialize": [[Key(I)]],
+        "step": [[Key(M)]]
+    },
+)
